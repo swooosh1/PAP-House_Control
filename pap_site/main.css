@@ -1,0 +1,112 @@
+/*
+      Created by Keith Donegan of Code-Sucks.com
+	  Edited and Modified by Pedro Ribeiro
+	  
+*/
+
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ background:url("./images/all_bg.png");
+ background-repeat:repeat-x;
+ background-color:black;
+
+}
+#wrapper { 
+ margin: 0 auto;
+ width: 922px;
+
+}
+#header {
+ color: #333;
+ width: 900px;
+ float: left;
+ padding: 10px;
+ height: 100px;
+ margin: 10px 0px 0px 0px;
+ background: url("images/banner.png");
+ background-repeat:no-repeat;
+}
+#menu {
+ 
+ width: 900px;
+ float: left;
+ padding: 10px;
+ height: 5px;
+ background: url("images/menu_bg.png");
+ background-repeat:no-repeat;
+  border: 1px solid #FFF;
+  
+}
+#menu img{
+border:1px;
+border-style:outset;
+border-width:1px;
+}
+
+#menu img a, img a:link, img a:active, img a:visited, img a:hover{
+border:0px;
+text-decoration: none;
+}
+
+#menu a {
+
+padding: 0px 17px 0px 17px;
+
+
+
+
+}
+
+
+
+
+#leftcolumn { 
+ color: #333;
+
+ background: url("./images/lbg.png");
+ background-repeat:repeat-y;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ height: 350px;
+ width: 678px;
+ float: left;
+  border: 1px solid #FFF;
+}
+
+#leftcolumn .a, a:link, a:active, a:visited, a:hover{
+text-decoration: none;
+font-weight: normal;
+}
+
+
+#rightcolumn { 
+ float: right;
+ color: #333;
+ background: url("./images/rbg.png");
+ background-repeat:repeat-x;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ height: 320px;
+ width: 200px;
+  border: 1px solid #FFF;
+ 
+}
+#footer { 
+ width: 900px;
+ height:20px;
+ clear: both;
+ color: #333;
+ border: 1px solid #FFF;
+ background: url("./images/footer.png");
+ background-repeat:repeat-x;
+ padding: 10px;
+}
+img{
+border:0px;
+border-style:outset;
+border-width:0px;
+}
+
